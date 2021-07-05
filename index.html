@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Thundering Paws Donate</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -43,83 +50,92 @@
             <img src="Images/Donate purple.png">
         </div>
     </div>
+    <hr>
 </section>
+
 <!--END PAGE HEADING-->
 <!--START JUMBOTRON-->
 <section>
     <div class="jumbotron">
-        <h4 class="display-4">We saved 95% of our rescues in 2020. Your help counts.</h4>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Donate online</a>
-        <p class="lead">You may also donate via Venmo or by mail.</p>
-    </div>      
+        <div class="callToAction">
+            <h4 class="display-4 headingInfo">We saved 95% of our rescues in 2020. Your help counts.</h4>
+            <a class="btn btn-primary btn-lg btnJumbotron" href="#" role="button">Donate online</a>
+            <p class="lead">You may also donate via Venmo or by mail.</p>
+        </div>
+        <div><img id="catPic" src="images/cat2.jpg">
+        </div>
+    </div>     
 </section>
 <!--END JUMBOTRON-->
 <!--START DONATIONS @ WORK-->
-<section>
-    <div class="row donationsAtWork">
-<!--begin card 1-->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="Images/1.png" class="card-img-top" alt="food and water icon">
-                    <div class="card-body">
-                    <h5 class="card-text">Food & water</h5>
+    <div class="container-fluid content">
+        <h4 class="sectionHeading">Your Donations at Work</h4>
+        <div class="row donationsAtWork">
+    <!--begin card 1-->
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/Food water.svg" class="card-img-top" alt="food and water icon">
+                        <div class="card-body">
+                        <h3 class="card-text">Food & water</h3>
+                        </div>
                     </div>
-                </div>
-        </div>
-<!--begin card 2-->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="Images/2.png" class="card-img-top" alt="spay icon">
-                    <div class="card-body">
-                    <h5 class="card-text">Spay & neuter</h5>
+            </div>
+    <!--begin card 2-->
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/Spay.svg" class="card-img-top" alt="spay icon">
+                        <div class="card-body">
+                        <h3 class="card-text">Spay & neuter</h3>
+                        </div>
                     </div>
-                </div>
-        </div>
-<!--begin card 3-->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                <div class="card" style="width: 18rem;">
-                    <img src="Images/3.png" class="card-img-top" alt="vaccine icon">
-                    <div class="card-body">
-                    <h5 class="card-text">Vet care & vaccinations</h5>
+            </div>
+    <!--begin card 3-->
+            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/Vaccines.svg" class="card-img-top" alt="vaccine icon">
+                        <div class="card-body">
+                        <h3 class="card-text">Vet care & vaccines</h3>
+                        </div>
                     </div>
-                </div>
+            </div>
+    <!--end card 3-->
         </div>
-<!--end card 3-->
     </div>
-</section>
 <!--END DONATIONS @WORK-->
 <!--BEGIN CARDS OTHER DONATIONS-->
-<section>
+
+<div class="container-fluid content2">
+    <h4 class="sectionHeading">Other Ways to Give</h4>
     <div class="row otherDonations">
 <!--Card1-->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 18rem;">
-                <img src="Images/Group 7290.svg" class="card-img-top" alt="...">
+                <img src="Images/Wish list.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                <h5 class="card-title">Wish list</h5>
+                <h3 class="card-title">Wish list</h3>
                 <p class="card-text">Help make our wishes come true by donating an item on one of these wish lists!</p>
-                <a href="#" class="btn btn-primary">View list</a>
+                <a href="#" class="btn btn-primary btn-card">View list</a>
                 </div>
             </div>
         </div>
 <!--Card 2-->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 18rem;">
-                <img src="Images/4.png" class="card-img-top" alt="...">
+                <img src="Images/Shop donate.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                <h5 class="card-title">Shop & donate</h5>
+                <h3 class="card-title">Shop & donate</h3>
                 <p class="card-text">Shop Amazon, Randall’s Grocery and others & donate at no additional cost to you.</p>
-                <a href="#" class="btn btn-primary">Learn more</a>
+                <a href="#" class="btn btn-primary text-center">Learn more</a>
                 </div>
              </div>
         </div>
 
 <!--card3-->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12 text-center">
              <div class="card" style="width: 18rem;">
-                <img src="Images/5.png" class="card-img-top" alt="...">
+                <img src="Images/Shop our store.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                <h5 class="card-title">Shop our store</h5>
+                <h3 class="card-title">Shop our store</h3>
                 <p class="card-text">Buy Thundering Paws gear and a percent of your purchase gets donated.</p>
                 <a href="#" class="btn btn-primary">Shop now</a>
                 </div>
@@ -127,9 +143,41 @@
         </div>
 <!--end card3-->
     </div>
-</section>
 <!-- END CARD OTHER DONATIONS-->
+<section class="footer">
+    <div class="footerLinks">
+        <ul class="linksList">
+            <li class="links">About us</li>
+            <li class="links">Volunteer</li>
+            <li class="links">Contact us</li>
+            <address id="address">
+                Thundering Paws<br>
+                P.O. Box 1555<br>
+                Dripping Springs, TX 78620<br>
+                Phone: (512) 402-9725<br>
+            </address>
+            </ul>
+    </div>
+    <div class="emailSubscribe">
+        <h4>Keep up with Thundering Paws</h4>
+        <p>In our weekly newsletter called Mewsings, you get the latest happenings at Thundering Paws.  We  share stories, information about our animals and ongoing projects and ways you can get involved. Sign up today! </p>
+        <form class="form-inline">
+            <label class="sr-only" for="inlineFormInputName2">Email</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Email address">
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+    </div> 
+    <div class="social">
+        <img src="images/logo--instagram(1) 1.svg">
+        <img src="images/logo--twitter 1.svg">
+        <img src="images/logo--youtube(1) 1.svg">
+        <img src="images/logo--facebook(1) 1.svg">
+    </div>
+</section>
+<!--begin script for bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--end script for bootstrap-->
 </body>
-<footer>
-</footer>
 </html>
